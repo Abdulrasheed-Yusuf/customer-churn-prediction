@@ -1,16 +1,21 @@
 # Customer Churn Prediction
 
-## Project Overview
+## 📌 Project Overview
 
 This project focuses on predicting customer churn using machine learning models. Two models—Logistic Regression and a Neural Network—were trained and evaluated to determine the best-performing model.
 
-## Dataset
+## 📊 Dataset
 
-The dataset contains customer information and service details, with the target variable being **Churn** (Yes/No). Key features include:
+The dataset is from the **IBM Telco Customer Churn** dataset and contains customer information such as:
 
-- Demographic information (Gender, SeniorCitizen, etc.)
-- Service subscription details (InternetService, Contract, PaymentMethod, etc.)
-- Usage statistics (tenure, MonthlyCharges, TotalCharges)
+- **Demographics:** Gender, Senior Citizen, Partner, Dependents.
+- **Account Information:** Tenure, Contract Type, Payment Method.
+- **Services Used:** Internet Service, Streaming Services, Tech Support.
+- **Billing Information:** Monthly Charges, Total Charges.
+
+The target variable is **Churn (Yes/No)**.
+
+---
 
 ## Data Preprocessing
 
@@ -62,9 +67,9 @@ Both models were saved for future use:
 
 ## How to Use
 
-1. Clone the repository:
-   ```sh
-   git clone <repo-link>
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Abdulrasheed-Yusuf/customer-churn-prediction.git
    cd customer-churn-prediction
    ```
 2. Run preprocessing and training:
